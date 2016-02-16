@@ -1,0 +1,15 @@
+Cmd + Shift + H always take you back to home.
+
+To see hidden files: ls -a (they start with a dot)
+
+To duplicate an existing repository: git clone
+
+To turn a directory into a git repository: git init
+
+When within a git project directory running ‘git log’ lists all the commits with their commit IDs and messages
+
+You can see the difference between two versions by running ‘git diff _ID1_ _ID2_’
+
+It helps to see the differences in colour which can be set using ‘git config --global color.ui auto’
+
+You can always go back to a previous version that you know doesn’t have bugs if you accidentally introduce something bad. Run ‘git checkout _insert ID_’
