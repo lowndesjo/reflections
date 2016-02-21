@@ -1,8 +1,25 @@
-3 steps:
+
+
+—> 3 steps:
 1. Working directory i.e. when you create a file and work in it
 2. Staging area i.e. the waiting area for files before they get committed - add a file to this using ‘git add _filename_’
 3. Repository i.e. the place where your git commits go - add files to this using ‘git commit’. Add a message according to the following style guide: http://udacity.github.io/git-styleguide/ 
 
 Check the whereabouts of files using ‘git status’
 
+To compare working directory and staging area use ‘git diff’ (without arguments)
 
+To compare staging area to repository use ‘git diff —staged’
+
+
+***
+
+
+—> BRANCHES
+Branches are useful if you want to keep a master copy, but also create a new version, which may be in a different language, may be experimenting with new features or may be an alternate, perhaps easier version of a game.
+
+Check what branches exist: ‘git branch’
+
+Create branch: ‘git branch _branchname_’
+
+Change the branch you are working in ‘git checkout _branch you want_’
