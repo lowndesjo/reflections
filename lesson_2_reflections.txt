@@ -23,3 +23,18 @@ Check what branches exist: ‘git branch’
 Create branch: ‘git branch _branchname_’
 
 Change the branch you are working in ‘git checkout _branch you want_’
+
+Get a visual representation of branches: ‘git log --graph --oneline _branch1_ _branch2_’
+
+Create a new branch to commit changes to whilst working in detached head state: ‘git checkout -b _newbranchname_’
+
+Merge two branches: Checkout the branch you want to merge commit to be logged in > ‘git merge _branch2_’ (you don’t need to mention the branch you are checked out in if that’s the one you want to merge into. You can merge 2 branches into it though in which case you would add both as arguments. In short: The key is to remember that git merge always merges all the specified branches into the currently checked out branch, creating a new commit for that branchq
+
+Delete a branch label (once changes have been merged): ‘git branch -d _branchname_’
+
+Because merged commits are shown in timestamp order they won’t necessarily appear next to their parent which could make git diff confusing. 
+To compare against its parent: ‘git show commit_id’
+
+***
+
+If you want to just show the most recent commit: git log -n 1 (you can change 1 to the number of most recent commits you want to see)
