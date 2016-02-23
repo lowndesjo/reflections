@@ -1,1 +1,10 @@
+GITHUB
 
+*Adding a remote
+    Add a new remote: ‘git remote add origin _URL_’
+    Check which remotes exist: ‘git remote’
+    Commit branches to remote: ‘git push -u _pushing to e.g. origin_ _branch committing eg master_’
+    
+  When would you want to use a remote repository rather than keeping all your work local?
+    - If someone else is contributing
+    - If you want to be able to access it from multiple computers
