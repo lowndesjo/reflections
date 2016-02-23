@@ -5,6 +5,9 @@ GITHUB
     Check which remotes exist: ‘git remote’
     Commit branches to remote: ‘git push -u _pushing to e.g. origin_ _branch committing eg master_’
     
-  When would you want to use a remote repository rather than keeping all your work local?
+  Q. When would you want to use a remote repository rather than keeping all your work local?
     - If someone else is contributing
     - If you want to be able to access it from multiple computers
+
+  Q. Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+  	- Because you might not be ready to share a feature publicly yet; a feature often involves multiple commits
