@@ -11,3 +11,19 @@ GITHUB
 
   Q. Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
   	- Because you might not be ready to share a feature publicly yet; a feature often involves multiple commits
+
+*Forking 
+	Click the fork sign in Github to clone someone else's repository into your own within Github
+	Copy the https link 
+	Clone this to your own computer: 'git clone _URL_'
+	To check the remote link (it gets auto set up) go into the new repository: 'cd _repository_'
+	'git remote -v' shows the link
+
+	Q. Describe the differences between forks, clones, and branches. When would you use one instead of another?
+	- A fork is basically a clone, but in the context of Github between two people's repositories. It creates a duplicate copy of the whole repository that can then be worked on independently. A clone is a duplicate copy you would create for yourself either within your computer or between Github and your computer. A branch operates within an existing repository to try out changes that you can choose whether to integrate or not.
+
+*Local copy of remote branches
+  Git saves a local copy of the remote branch in addition to your own master, so if you want to have access to someone else's changes whilst working offline for a while you can get the copy but not actually merge them into your own local master. You do this with: 'git fetch'. That copy gets added to origin/master
+  You can merge master and origin master with this: 'git merge' (make sure you are in cd master)
+  If there is a conflict to be resolved, go into the file to resolve it then add and commit the updated file.
+  You can fetch and merge in one step: 'git pull'
