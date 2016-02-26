@@ -27,3 +27,6 @@ GITHUB
   You can merge master and origin master with this: 'git merge' (make sure you are in cd master)
   If there is a conflict to be resolved, go into the file to resolve it then add and commit the updated file.
   You can fetch and merge in one step: 'git pull'
+
+  Q. How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+    - Not using github means not needing to learn how to use it in the first place, but could make things more complicated in the long run. Git and Github make work feel safer as you can always go back and unpick any errors anyone has made. It allows you to try out different things simultaneously and easily compare. It's also an easy way for people to share and build on one another's code without them needing to actually know each other or have one another's email addresses.
